@@ -1,11 +1,5 @@
 ﻿using Bogus;
-using PersonsProject.Converters;
 using PersonsProject.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PersonsProject.Test.DataGenerators
 {
@@ -41,7 +35,7 @@ namespace PersonsProject.Test.DataGenerators
         /// Generates a list of fake <see cref="Student"/> objects.
         /// </summary>
         /// <param name="count">The number of Student objects to generate.</param>
-        /// <returns>A list of fake Title objects.</returns>
+        /// <returns>A list of fake Student objects.</returns>
         public List<Student> CreateStudents(int count)
         {
             return _studentFaker.Generate(count);
