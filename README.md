@@ -1,23 +1,23 @@
 # StudentConverterTest Description
 StudentConverterTest class consist of tests for StudentConverter class.
 Current implementation covers several test scenarious for ConvertStudents method:
-- High Achiever case
-- Exceptional Young High Achiever case
-- Passed Student case
-- Failed Student case
-- Empty Array case
-- Not an Array case
+- High Achiever case.
+- Exceptional Young High Achiever case.
+- Passed Student case.
+- Failed Student case.
+- Empty Array case.
+- Not an Array case.
 All of the tests use constant variables for each of the cases.
 
 # PlayerAnalyzerTest Description
 PlayerAnalyzerTest class consist of tests for PlayerAnalyzer class.
 Current implementation covers several test scenarious for CalculateScore method:
-- Normal Player case
-- Junior Player case
-- Senior Player case
-- Multiple Players case
-- Null Skills param case
-- Empty Array case
+- Normal Player case.
+- Junior Player case.
+- Senior Player case.
+- Multiple Players case.
+- Null Skills param case.
+- Empty Array case.
 All of the tests use constant variables for each of the cases.
 Also, expected results in the tests are constants as well because the math operations were calculated beforehand.
 
