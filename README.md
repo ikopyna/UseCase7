@@ -1,5 +1,6 @@
 # StudentConverterTest Description
 StudentConverterTest class consist of tests for StudentConverter class.
+All of the tests use constant variables for each of the cases.
 Current implementation covers several test scenarious for ConvertStudents method:
 - High Achiever case.
 - Exceptional Young High Achiever case.
@@ -7,10 +8,11 @@ Current implementation covers several test scenarious for ConvertStudents method
 - Failed Student case.
 - Empty Array case.
 - Not an Array case.
-All of the tests use constant variables for each of the cases.
 
 # PlayerAnalyzerTest Description
 PlayerAnalyzerTest class consist of tests for PlayerAnalyzer class.
+All of the tests use constant variables for each of the cases.
+Also, expected results in the tests are constants as well because the math operations were calculated beforehand.
 Current implementation covers several test scenarious for CalculateScore method:
 - Normal Player case.
 - Junior Player case.
@@ -18,8 +20,6 @@ Current implementation covers several test scenarious for CalculateScore method:
 - Multiple Players case.
 - Null Skills param case.
 - Empty Array case.
-All of the tests use constant variables for each of the cases.
-Also, expected results in the tests are constants as well because the math operations were calculated beforehand.
 
 # How to run tests locally
 - Open the 'PersonsProject.sln' file with Visual Studio 2022.
